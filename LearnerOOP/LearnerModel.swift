@@ -23,7 +23,7 @@ class LearnerModel {
     }
     
     func increaseAge(){
-        self.age += 1
+        self.age = age + 1
 
         }
   

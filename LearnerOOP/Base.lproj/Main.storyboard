@@ -46,14 +46,10 @@
                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eaB-og-IAD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CyC-Ol-93p">
-                                <rect key="frame" x="242" y="397" width="30" height="34"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ykg-gf-8fF">
+                                <rect key="frame" x="161" y="475" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="-"/>
-                                <connections>
-                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YXD-MA-1c3"/>
-                                    <action selector="decreaseAgeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Khp-ze-mRE"/>
-                                </connections>
+                                <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

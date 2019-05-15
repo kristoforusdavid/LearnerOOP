@@ -16,16 +16,17 @@ class ViewController: UIViewController{
     
     @IBOutlet weak var learnerGenderLabel: UILabel!
     var learnerInstance:LearnerModel?
-    
+    var facilInstance:FacilitatorModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-         learnerInstance = LearnerModel(nameLearner: "David", ageLearner: 24, genderLearner: "Male", imageProfileLearner: "")
+        learnerInstance = LearnerModel(nameLearner: "David", ageLearner: 24, genderLearner: "Male", imageProfileLearner: "")
+        facilInstance = FacilitatorModel(facilName: "Kristoforus", facilAge: 24, facilGender: "Male", facilImageProfile: "", facilPerk: "Apa aja boleh")
         updateUI()
     }
     
     func updateUI(){
-        if let instance = learnerInstance {
+        if let instance = facilInstance {
             learnerNameLabel.text = instance.name
             learnerAgeLabel.text = "\(instance.age)"
             learnerGenderLabel.text = instance.gender
@@ -34,17 +35,11 @@ class ViewController: UIViewController{
     }
 
     @IBAction func button(_ sender: Any) {
-        if let instance = learnerInstance {
+        if let instance = facilInstance {
             instance.increaseAge()
+            instance.coachMentee()
             updateUI()
         }
     }
-    
-    @IBAction func decreaseAgeButton(_ sender: Any) {
-        if let instance = learnerInstance
-        instance.decraseAge()
-        updateUI()
-    }
-    
 }
 
