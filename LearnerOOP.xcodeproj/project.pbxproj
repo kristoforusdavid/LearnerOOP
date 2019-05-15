@@ -14,6 +14,7 @@
 		7722E397228BD873006C6851 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7722E395228BD873006C6851 /* LaunchScreen.storyboard */; };
 		7722E39F228BE59A006C6851 /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7722E39E228BE59A006C6851 /* LearnerModel.swift */; };
 		7722E3C1228C03AA006C6851 /* FacilitatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7722E3C0228C03AA006C6851 /* FacilitatorModel.swift */; };
+		7722E3C5228C09E6006C6851 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7722E3C4228C09E6006C6851 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7722E398228BD873006C6851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7722E39E228BE59A006C6851 /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
 		7722E3C0228C03AA006C6851 /* FacilitatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitatorModel.swift; sourceTree = "<group>"; };
+		7722E3C4228C09E6006C6851 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				7722E38E228BD870006C6851 /* ViewController.swift */,
 				7722E39E228BE59A006C6851 /* LearnerModel.swift */,
 				7722E3C0228C03AA006C6851 /* FacilitatorModel.swift */,
+				7722E3C4228C09E6006C6851 /* RoundedButton.swift */,
 				7722E390228BD870006C6851 /* Main.storyboard */,
 				7722E393228BD873006C6851 /* Assets.xcassets */,
 				7722E395228BD873006C6851 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7722E3C1228C03AA006C6851 /* FacilitatorModel.swift in Sources */,
+				7722E3C5228C09E6006C6851 /* RoundedButton.swift in Sources */,
 				7722E38F228BD870006C6851 /* ViewController.swift in Sources */,
 				7722E39F228BE59A006C6851 /* LearnerModel.swift in Sources */,
 				7722E38D228BD870006C6851 /* AppDelegate.swift in Sources */,
